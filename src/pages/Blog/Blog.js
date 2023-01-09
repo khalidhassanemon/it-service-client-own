@@ -12,7 +12,7 @@ const blogItem = [
         id: 1,
         image: img1,
         title: "Difference between SQL and NoSQL",
-        ans: "The programming language used to communicate with relational databases is called SQL. (Relational databases represent data as rows and tables of records connected by logical linkages.) NoSQL DBMs are a subset of non-relational DBMs that often do not employ SQL."
+        ans: "The programming language used to communicate with relational databases is called SQL. (Relational databases represent data as rows and tables of records connected by logical linkages.) NoSQL DBMs are a subset of non-relational DBMS that often do not employ SQL."
     },
     {
         id: 2,
