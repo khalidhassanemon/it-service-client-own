@@ -35,7 +35,7 @@ const AddService = () => {
             .then(response => response.json())
             .then(data => {
                 event.target.reset();
-                toast.success("Your added a service successfully.");
+                toast.success("Your added a service Successfully.");
             })
             .catch(error => (error.message));
     }
