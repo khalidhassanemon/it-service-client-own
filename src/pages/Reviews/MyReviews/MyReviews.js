@@ -36,7 +36,7 @@ const MyReviews = () => {
                 .then(res => res.json())
                 .then(data => {
                     if (data.deletedCount > 0) {
-                        toast.success('Review deletation is success.');
+                        toast.success('Review deletation is Success.');
                         const remain = reviewGet.filter(reviewItem => reviewItem._id !== id);
                         setMyReviews(remain);
                     }

@@ -59,7 +59,7 @@ const Header = () => {
                                     }
                                 </label>
                                 <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
-                                    <li><Link to='/addservice'>Add Service</Link></li>
+                                    <li><Link to='/addservice'>Add Services</Link></li>
                                     <li><Link to='/myreviews'>My Reviews</Link></li>
                                     <li><Link onClick={handleLogOut}>Logout</Link></li>
                                 </ul>
