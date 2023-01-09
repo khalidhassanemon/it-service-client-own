@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-
+/Authprovider
 # production
 /build
 # misc
