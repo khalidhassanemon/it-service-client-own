@@ -25,7 +25,7 @@ const Signup = () => {
         const confirmPwrd = event.target.confirmPwrd.value;
 
         if (password.length < 6) {
-            setError('Password needs to be atleast 6 characters!')
+            setError('Password needs to be At least 6 characters!')
         }
 
         if (password !== confirmPwrd) {
