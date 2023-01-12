@@ -33,22 +33,19 @@ Before we get started, keep in mind:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2023-01-09T17:06:02.023Z] Using project from CLI flag: graphics-service-app
+[debug] [2023-01-09T17:06:02.023Z] Using project from CLI flag: it-services-app
 [debug] [2023-01-09T17:06:02.024Z] > refreshing access token with scopes: []
 [debug] [2023-01-09T17:06:02.026Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
 [debug] [2023-01-09T17:06:02.026Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
 [debug] [2023-01-09T17:06:02.474Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
 [debug] [2023-01-09T17:06:02.474Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2023-01-09T17:06:02.486Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/graphics-service-app [none]
-[debug] [2023-01-09T17:06:03.329Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/graphics-service-app 403
-[debug] [2023-01-09T17:06:03.329Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/graphics-service-app {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
 [debug] [2023-01-09T17:06:03.330Z] HTTP Error: 403, The caller does not have permission
 [debug] [2023-01-09T17:06:03.941Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at responseToError (C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
     at RetryOperation._fn (C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
 [error] 
-[error] Error: Failed to get Firebase project graphics-service-app. Please make sure the project exists and your account has permission to access it.
+[error] Error: Failed to get Firebase project IT-service-app. Please make sure the project exists and your account has permission to access it.
 [debug] [2023-01-09T17:13:06.532Z] ----------------------------------------------------------------------
 [debug] [2023-01-09T17:13:06.534Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
 [debug] [2023-01-09T17:13:06.535Z] CLI Version:   11.19.0
@@ -81,17 +78,17 @@ Before we get started, keep in mind:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2023-01-09T17:13:16.085Z] Using project from CLI flag: graphics-service-app
-[debug] [2023-01-09T17:13:16.088Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/graphics-service-app [none]
-[debug] [2023-01-09T17:13:16.846Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/graphics-service-app 403
-[debug] [2023-01-09T17:13:16.847Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/graphics-service-app {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-01-09T17:13:16.085Z] Using project from CLI flag: it-services-app
+[debug] [2023-01-09T17:13:16.088Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/it-services-app [none]
+[debug] [2023-01-09T17:13:16.846Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/it-services-app 403
+[debug] [2023-01-09T17:13:16.847Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/it-services-app {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
 [debug] [2023-01-09T17:13:16.847Z] HTTP Error: 403, The caller does not have permission
 [debug] [2023-01-09T17:13:17.170Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at responseToError (C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
     at RetryOperation._fn (C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
 [error] 
-[error] Error: Failed to get Firebase project graphics-service-app. Please make sure the project exists and your account has permission to access it.
+[error] Error: Failed to get Firebase project it-services-app. Please make sure the project exists and your account has permission to access it.
 [debug] [2023-01-09T17:15:25.205Z] ----------------------------------------------------------------------
 [debug] [2023-01-09T17:15:25.207Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
 [debug] [2023-01-09T17:15:25.208Z] CLI Version:   11.20.0
@@ -102,26 +99,26 @@ Before we get started, keep in mind:
 [debug] 
 [debug] [2023-01-09T17:15:25.316Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
 [debug] [2023-01-09T17:15:25.316Z] > authorizing via signed-in user (khalidhassanemon12@gmail.com)
-[debug] [2023-01-09T17:15:25.316Z] [iam] checking project graphics-service-app for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2023-01-09T17:15:25.319Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/graphics-service-app:testIamPermissions [none]
-[debug] [2023-01-09T17:15:25.320Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/graphics-service-app:testIamPermissions x-goog-quota-user=projects/graphics-service-app
-[debug] [2023-01-09T17:15:25.320Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/graphics-service-app:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
-[debug] [2023-01-09T17:15:27.076Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/graphics-service-app:testIamPermissions 200
-[debug] [2023-01-09T17:15:27.076Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/graphics-service-app:testIamPermissions {}
-[debug] [2023-01-09T17:15:27.077Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project graphics-service-app:
+[debug] [2023-01-09T17:15:25.316Z] [iam] checking project it-services-app for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-01-09T17:15:25.319Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/it-services-app:testIamPermissions [none]
+[debug] [2023-01-09T17:15:25.320Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/it-services-app:testIamPermissions x-goog-quota-user=projects/it-services-app
+[debug] [2023-01-09T17:15:25.320Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/it-services-app:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-01-09T17:15:27.076Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/it-services-app:testIamPermissions 200
+[debug] [2023-01-09T17:15:27.076Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/it-services-app:testIamPermissions {}
+[debug] [2023-01-09T17:15:27.077Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project it-services-app:
 
   firebase.projects.get
   firebasehosting.sites.update
-[debug] [2023-01-09T17:15:27.078Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/graphics-service-app [none]
-[debug] [2023-01-09T17:15:28.107Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/graphics-service-app 403
-[debug] [2023-01-09T17:15:28.108Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/graphics-service-app {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-01-09T17:15:27.078Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/it-services-app [none]
+[debug] [2023-01-09T17:15:28.107Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/it-services-app 403
+[debug] [2023-01-09T17:15:28.108Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/it-services-app {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
 [debug] [2023-01-09T17:15:28.109Z] HTTP Error: 403, The caller does not have permission
 [debug] [2023-01-09T17:15:28.387Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at responseToError (C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
     at RetryOperation._fn (C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
 [error] 
-[error] Error: Failed to get Firebase project graphics-service-app. Please make sure the project exists and your account has permission to access it.
+[error] Error: Failed to get Firebase project it-services-app. Please make sure the project exists and your account has permission to access it.
 [debug] [2023-01-09T17:16:13.311Z] ----------------------------------------------------------------------
 [debug] [2023-01-09T17:16:13.313Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
 [debug] [2023-01-09T17:16:13.314Z] CLI Version:   11.20.0
@@ -154,17 +151,17 @@ Before we get started, keep in mind:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2023-01-09T17:16:44.998Z] Using project from CLI flag: graphics-service-app
-[debug] [2023-01-09T17:16:45.039Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/graphics-service-app [none]
-[debug] [2023-01-09T17:16:45.823Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/graphics-service-app 403
-[debug] [2023-01-09T17:16:45.823Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/graphics-service-app {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-01-09T17:16:44.998Z] Using project from CLI flag: it-services-app
+[debug] [2023-01-09T17:16:45.039Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/it-services-app [none]
+[debug] [2023-01-09T17:16:45.823Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/it-services-app 403
+[debug] [2023-01-09T17:16:45.823Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/it-services-app {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
 [debug] [2023-01-09T17:16:45.824Z] HTTP Error: 403, The caller does not have permission
 [debug] [2023-01-09T17:16:46.101Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at responseToError (C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
     at RetryOperation._fn (C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
 [error] 
-[error] Error: Failed to get Firebase project graphics-service-app. Please make sure the project exists and your account has permission to access it.
+[error] Error: Failed to get Firebase project it-services-app. Please make sure the project exists and your account has permission to access it.
 [debug] [2023-01-09T18:09:36.981Z] ----------------------------------------------------------------------
 [debug] [2023-01-09T18:09:36.984Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
 [debug] [2023-01-09T18:09:36.985Z] CLI Version:   11.20.0
@@ -197,19 +194,19 @@ Before we get started, keep in mind:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
-[debug] [2023-01-09T18:09:45.222Z] Using project from CLI flag: graphics-service-app
+[debug] [2023-01-09T18:09:45.222Z] Using project from CLI flag: it-services-app
 [debug] [2023-01-09T18:09:45.224Z] > refreshing access token with scopes: []
 [debug] [2023-01-09T18:09:45.226Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
 [debug] [2023-01-09T18:09:45.226Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
 [debug] [2023-01-09T18:09:45.639Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
 [debug] [2023-01-09T18:09:45.639Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
-[debug] [2023-01-09T18:09:45.650Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/graphics-service-app [none]
-[debug] [2023-01-09T18:09:47.354Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/graphics-service-app 403
-[debug] [2023-01-09T18:09:47.355Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/graphics-service-app {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2023-01-09T18:09:45.650Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/it-services-app [none]
+[debug] [2023-01-09T18:09:47.354Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/it-services-app 403
+[debug] [2023-01-09T18:09:47.355Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/it-services-app {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
 [debug] [2023-01-09T18:09:47.355Z] HTTP Error: 403, The caller does not have permission
 [debug] [2023-01-09T18:09:48.128Z] FirebaseError: HTTP Error: 403, The caller does not have permission
     at responseToError (C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
     at RetryOperation._fn (C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:288:77)
     at processTicksAndRejections (node:internal/process/task_queues:96:5)
 [error] 
-[error] Error: Failed to get Firebase project graphics-service-app. Please make sure the project exists and your account has permission to access it.
+[error] Error: Failed to get Firebase project it-services-app. Please make sure the project exists and your account has permission to access it.
