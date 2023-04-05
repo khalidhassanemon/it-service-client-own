@@ -1,4 +1,4 @@
-# Getting Started with Graphics Bari
+# Getting Started with IT Services
 
 This project was bootstrapped with `ReactJs`, `Tailwind component CSS`, `React router DOM`, `Context API`. And for, server handling I have used `Express Js`, for storing data in database `mongoDB` is used, and later hosted the API in `Vercel` server and finally hosted tha app in firebase successfully. Moreoverly,
 
@@ -19,28 +19,27 @@ This project was bootstrapped with `ReactJs`, `Tailwind component CSS`, `React r
 
 ### `React-Router-Dom` ### `ContextApI` ### `Private-Routes` ### `Express Js` ### `Vercel` ### `GoogleAuthProvider`  ### `GithubAuthProvider` ### `Firebase` ### `React-Scoll` ### `MongoDB`  ### `JWT Token` ### `Photo Viewer` 
 
-## Code Accademia Repository Links
 
 ### Client Side
 
-Link: [ https://github.com/Porgramming-Hero-web-course/b6a11-service-review-client-side-shoibaldas]( https://github.com/Porgramming-Hero-web-course/b6a11-service-review-client-side-shoibaldas)
+Link: [https://github.com/khalidhassanemon/it-service-client-own](https://github.com/khalidhassanemon/it-service-client-own)
 
 ### Server Side
 
-Link: [https://github.com/Porgramming-Hero-web-course/b6a11-service-review-server-side-shoibaldas](https://github.com/Porgramming-Hero-web-course/b6a11-service-review-server-side-shoibaldas)
+Link: [https://github.com/khalidhassanemon/it-service-server-own](https://github.com/khalidhassanemon/it-service-server-own)
 
 
 ### Deployment
 
 I have used Google Firebase to host the web application.
 
-## Graphics Bari Live Link
+## IT Services Live Link
 
-Link: [https://it-services-app.web.app/](https://it-services-app.web.app/)
+Link: [https://app.netlify.com/sites/glistening-pothos-1ee86d/overview)
 
 
 ## Vercel Link 
 
 ### For category data:
-Link: [https://it-solution-server.vercel.app/](https://it-solution-server.vercel.app/)
+Link: [it-solution-server-j1h2sf6ex-khalidhassanemon.vercel.app]
 
