@@ -41,5 +41,5 @@ Link: [https://app.netlify.com/sites/glistening-pothos-1ee86d/overview)
 ## Vercel Link 
 
 ### For category data:
-Link: [it-solution-server-j1h2sf6ex-khalidhassanemon.vercel.app)
+Link: [https://vercel.com/khalidhassanemon/it-solution-server)
 
